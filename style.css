@@ -417,6 +417,33 @@ gap: 0.5rem;
     position: relative;
 }
 
+/*etsy section formatting: */
+.section-container {
+  display: flex;
+  align-items: stretch; /* force children (image + text box) to be same height */
+  gap: 2rem;            /* space between them */
+}
+
+/* Right-hand text box */
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* keep everything at the top */
+  align-items: flex-start;     /* left-align children */
+  text-align: left;            /* left-align text */
+}
+
+/* Fix spacing for title + button */
+.details-container h2 {
+  margin-bottom: 0.5rem; /* small gap under "Etsy Business" */
+}
+
+.details-container .btn-container {
+  margin: 0.5rem 0;      /* small gap above and below button */
+}
+
+
+
 .color-container {
     border-color: rgb(163, 163, 163);
     background: #282828;
