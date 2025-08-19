@@ -393,7 +393,7 @@ article .icon {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
 gap: 2rem;
-text-align: left;               /* override center from details-container */
+text-align: center;               /* override center from details-container */
 justify-items: start;           /* left-align each cell */
 }
 
