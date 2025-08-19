@@ -445,6 +445,16 @@ gap: 0.5rem;
   justify-content: center;
 }
 
+/*button spacing */
+.etsy-details h2 {
+  margin-bottom: 0.75rem;    /* slightly more balanced gap */
+}
+
+.etsy-details .btn-container {
+  margin: 0.75rem 0;         /* space between title, button, and text */
+}
+
+/* text alignment */
 .etsy-details .details-header {
   text-align: center;
 }
