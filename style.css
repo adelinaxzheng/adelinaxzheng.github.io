@@ -421,9 +421,11 @@ gap: 0.5rem;
 
 .section-container .etsy-section {
   display: flex;
+  flex-direction: row;
   align-items: stretch;   /* makes image + text equal height */
   gap: 2rem;
 }
+
 /* fixed image size */
 .etsy-section .section__pic-container {
   flex: 0 0 400px;   /* fixed width */
