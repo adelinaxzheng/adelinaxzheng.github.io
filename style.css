@@ -427,18 +427,20 @@ gap: 0.5rem;
   gap: 2rem;
 }
 
-/* fixed image size */
+/* fixed image size 
 .etsy-section .section__pic-container {
-  flex: 0 0 400px;   /* fixed width */
-  height: 400px;     /* fixed height */
+  flex: 0 0 400px; 
+  height: 400px;     
 }
-
+*/
+/*
 .etsy-section .section__pic-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 1rem;
 }
+*/
 
 /* text box matches image height */
 .etsy-section .details-container {
