@@ -419,7 +419,7 @@ gap: 0.5rem;
 
 /* Etsy section */
 
-.etsy-section {
+.section-container .etsy-section {
   display: flex;
   align-items: stretch;   /* makes image + text equal height */
   gap: 2rem;
@@ -447,11 +447,11 @@ gap: 0.5rem;
 
 /*button spacing */
 .details-header h2 {
-  margin-bottom: 0.75rem;    /* slightly more balanced gap */
+  margin-bottom: 1rem;    /* slightly more balanced gap */
 }
 
 .details-header .btn-container {
-  margin: 0.75rem 0;         /* space between title, button, and text */
+  margin: 1rem 0;         /* space between title, button, and text */
 }
 
 /* text alignment */
