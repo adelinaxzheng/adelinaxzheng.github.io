@@ -394,7 +394,7 @@ display: grid;
 grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
 gap: 2rem;
 text-align: center;               /* override center from details-container */
-justify-items: start;           /* left-align each cell */
+/*justify-items: start;           /* left-align each cell */
 }
 
 /* let each mini-panel size to its content rather than a fixed width */
