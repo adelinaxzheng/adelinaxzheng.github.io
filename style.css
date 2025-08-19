@@ -380,7 +380,7 @@ section {
 article {
     display: flex;
     width: 10rem;
-    text-align: left;
+    text-align: center;
     gap: 0.5rem;
 }
 
