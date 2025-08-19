@@ -510,3 +510,9 @@ footer {
 footer p{
     text-align: center;
 }
+
+.skills-container article {
+    text-align: center;   /* override the default */
+    flex-direction: column; /* so <h3> is above <p> */
+    width: auto;           /* so it doesn’t squash */
+}
