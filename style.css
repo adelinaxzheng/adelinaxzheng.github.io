@@ -419,7 +419,7 @@ gap: 0.5rem;
 
 /* Etsy section */
 
-.section-container .etsy-section {
+.etsy-section {
   display: flex;
   flex-direction: row;
   align-items: stretch;   /* makes image + text equal height */
